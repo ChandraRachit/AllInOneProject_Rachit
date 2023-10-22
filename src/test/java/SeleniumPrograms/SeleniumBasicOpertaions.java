@@ -51,7 +51,7 @@ public class SeleniumBasicOpertaions {
 		//frame
 		driver.switchTo().frame(0);
 		driver.switchTo().frame("FrameName");
-		driver.switchTo().frame(frameElement);
+		//driver.switchTo().frame(frameElement);
 		driver.switchTo().defaultContent();
 		driver.switchTo().parentFrame();
 		
@@ -62,8 +62,8 @@ public class SeleniumBasicOpertaions {
 		String windowHandle=driver.getWindowHandle();
 		Set<String> windowHandles=driver.getWindowHandles();
 		//window
-		driver.switchTo().window(nameOrHandle);
-		driver.switchTo().newWindow(typeHint);
+		//driver.switchTo().window(nameOrHandle);
+		//driver.switchTo().newWindow(typeHint);
 		
 	
 		//

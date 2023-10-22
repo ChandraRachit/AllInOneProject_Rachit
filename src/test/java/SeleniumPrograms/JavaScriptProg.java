@@ -18,9 +18,10 @@ public class JavaScriptProg {
 		
 		
 		//Syntex
-		js.executeScript(Script,Arguments);
+		//js.executeScript(Script,Arguments);
 		
 		//click
+		WebElement Element=driver.findElement(By.xpath("a"));
 		js.executeScript("arguments[0].click();", Element);
 		
 		//To generate a alert

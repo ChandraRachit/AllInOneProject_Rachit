@@ -25,13 +25,13 @@ public class WaitsInSelenium {
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS);
 		
 		//Explicit Wait
-		WebDriverWait wait=new WebDriverWait(driver, 20);
-		wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("hello")));
+		//WebDriverWait wait=new WebDriverWait(driver, 20);
+		//wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("hello")));
 		
 		//FluentWait
 		Wait<WebDriver> fwait = new FluentWait<WebDriver>(driver)							
-				.withTimeout(30, TimeUnit.SECONDS) 			
-				.pollingEvery(5, TimeUnit.SECONDS) 			
+		//		.withTimeout(30, TimeUnit.SECONDS) 			
+		//		.pollingEvery(5, TimeUnit.SECONDS) 			
 				.ignoring(NoSuchElementException.class);
 		
 		WebElement clickseleniumlink = fwait.until(ExpectedConditions.elementToBeClickable(By.xpath("Hello")));
