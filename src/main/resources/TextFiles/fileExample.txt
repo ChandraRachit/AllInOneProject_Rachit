@@ -1,0 +1,9 @@
+Write a Java Program to reverse a string without using String inbuilt function.
+Write a Java Program to swap two numbers using/without using the third variable.
+Write a Java Program to count the number of words in a string using HashMap.
+Write a Java Program to find the duplicate characters in a string. 
+Write a Java Program to iterate HashMap using While and advance for loop.
+Write a Java Program to find whether a number is prime or not.
+Write a Java Program to find whether a string or number is palindrome or not.
+Write a Java Program for the Fibonacci series.
+Write a Java Program to find the second-highest number in an array.

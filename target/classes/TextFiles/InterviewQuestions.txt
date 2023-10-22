@@ -1,0 +1,143 @@
+2024
+
+Collection Framework Java  
+Junit/TestNG
+Java Basics
+Selenium Basics
+Selenium interview questions
+Selenium framework
+
+git/github
+
+CI/CD - Jenkins
+
+
+Java Interview
+------------------------------
+Final Vs Finally vs Finalize
+
+Final-Keyword-class,Method,Variable - Class Cant be inherited/Method cant be overriden/Varible becomes constant
+Finally-Block-With try Catch-always run
+Finalize-Method-With Objects- for cleanup activity
+--------------------
+Static final keyword
+Static - 
+
+Treemap vs HashMap
+List Set Map
+Public private default protected
+== .equals()
+Checked Vs Unchecked
+Hashmap vs Hashtable
+Threads vs Process
+String stringBuffer StringBuilder
+Encapsulation Abstraction inheritance Polymorphisym
+Abstract Vs Concreate clsss
+Overloading Vs Overriding
+Vector Vs ArryList
+Static vd dynamic class loading
+Abstract class Vs Interface
+------------------------------------------------------------------------------------------------------
+Write a Java Program to reverse a string without using String inbuilt function.
+Write a Java Program to swap two numbers using/without using the third variable.
+Write a Java Program to count the number of words in a string using HashMap.
+Write a Java Program to find the duplicate characters in a string. 
+Write a Java Program to iterate HashMap using While and advance for loop.
+Write a Java Program to find whether a number is prime or not.
+Write a Java Program to find whether a string or number is palindrome or not.
+Write a Java Program for the Fibonacci series.
+Write a Java Program to find the second-highest number in an array.
+Write a Java Program to remove all white spaces from a string with/without using replace()
+find out the vowels in string
+remove leading and trailing spaces from String
+Sort an array in Java
+Factorial 
+Check two arrays contains same elements
+Sum of all elements in an interger.
+Write a Java Program to read an Text file.
+Find a string in a file
+Convert to binary
+Binary to Int
+Print date in specific format
+Showcase inheritance in Java
+Overloading & Overriding program
+int long concept
+Write a Java Program to check Armstrong number.
+
+Sort hashmap by Value
+Write a Java Program to read an excel file.
+Write a Java Program to demonstrate an explicit wait condition check
+----------------------------------------------------------------------------------------------------------------------------------------
+SQL
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Selenium
+Wait - Implicit & Explicit 
+Print screen
+Scroll up & Down
+Switch to tab
+Switch to frame
+Open all links
+Open all tabs
+Switch to previous tab/frame
+Reading/writing Test Data
+AutoIT
+Javascript
+Browser window size
+FIndElement Vs FindElements
+Exceptions
+Broken links
+Assert Vs Verify
+HardAssert Vs SoftAssert
+Launch a browaser and test Login Page
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+TestNG
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Cucumber
+Behavior Driven Development -is to make various project roles such as Business Analysts, Quality Assurance, Developers, etc., understand the application without diving deep into the technical aspects.
+Advantage of cucumber
+Feature file
+Step definations
+Scenario outline
+Background
+Gerkhins - given when then and background
+Regular expression
+In which language cucumber is written - Ruby
+What are the maximum numbers of scenarios that we can includ in the feature file?-10 (vary project to project)
+cucumber dry run-used to compile cucumber features files and step definitions. It is run to find any compilation errors. If it finds anyone, it will show when we use dry run.
+TestRunner class-In the Cucumber testing approach, the TestRunner class provides the link between the feature file and the step definition file. The TestRunner class is generally an empty class with no class definition.
+How can you use the Options tag in the Cucumber framework?-
+Feature Parameter & Glue parameter
+What is the use of features property under the Cucumber Options tag?-used to identify the location of the feature files.
+What is the use of glue property under the Cucumber Options tag?-used to facilitate the Cucumber framework to identify the location of step definition files.
+What is the use of hooks in the Cucumber framework?-used to control the flow of the program and optimize lines of code. A block of code tagged with hooks in Cucumber can run before or post a scenario with the help of @Before and @After annotations.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+RestAssured
+
+RestAssured - 
+Rest
+JSON
+What Protocol Restful Web Services 
+client-server architecture
+resource in REST
+REST Assured method chaining
+request specification
+How do you initiate request specification in REST Assured
+How do you perform chaining in REST Assured?
+Write a code that tests REST API using REST Assured
+When using REST Assured, what’s the best method of keeping sensitive data out of the log?
+What is a jsonPath in the context of REST Assured?
+How do you log a request and response in case REST Assured fails a validation?
+How do you use a REST Assured jsonPath to find all employee IDs between 15 and 300?
+What is static import and why would you use it in REST Assured?
+What are serialization and deserialization in the context of Java?
+List the core components of an HTTP request.
+Can a GET request be used to create a resource instead of PUT?
+HTTP Response -(Status,Collection of Headers,Body)
+
+----------------------------------------------------------------------------------------------------------------------------------------
