@@ -1,6 +1,7 @@
 package RestAssuredPrograms;
 
-import static io.restassured.RestAssured.get;
+import static org.hamcrest.Matchers.equalTo; 
+import static io.restassured.RestAssured.*;
 import io.restassured.response.Response;
 import org.testng.annotations.Test;
 
@@ -19,6 +20,19 @@ public class RestAssured_001 {
 		System.out.println("Get Time = "+response.getTime());
 		System.out.println("Response = "+response.asString());
 		
+		
+	}
+	
+	
+	@Test
+	public void testMethod2() {
+		baseURI="https://reqres.in/api";
+		
+		given().
+			get("/users?page=2").
+		then().
+			statusCode(200).body("data[1].id", equalTo(8)).
+			log().all();
 		
 	}
 

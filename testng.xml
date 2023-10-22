@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+ <parameter name="Browser" value="Chrome" />
+	<test thread-count="2" name="Test" parallel="methods">
+		<classes>
+			<class name="TestNG.ExampleClass1" />
+			<class name="TestNG.ExampleCLass2_Enabled" />
+			<class name="TestNG.ExampleCLass3_Exception" />
+			<class name="TestNG.ExampleClass4_DataProvider" />
+			<class name="TestNG.ExampleClass5_IncludeExclude">
+				<methods>
+					<include name="testMethod51" />
+					<!-- <exclude name="testMethod52" /> -->
+				</methods>
+			</class>
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
