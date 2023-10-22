@@ -130,7 +130,7 @@ request specification
 How do you initiate request specification in REST Assured
 How do you perform chaining in REST Assured?
 Write a code that tests REST API using REST Assured
-When using REST Assured, whatâ€™s the best method of keeping sensitive data out of the log?
+When using REST Assured, what’s the best method of keeping sensitive data out of the log?
 What is a jsonPath in the context of REST Assured?
 How do you log a request and response in case REST Assured fails a validation?
 How do you use a REST Assured jsonPath to find all employee IDs between 15 and 300?
@@ -139,5 +139,7 @@ What are serialization and deserialization in the context of Java?
 List the core components of an HTTP request.
 Can a GET request be used to create a resource instead of PUT?
 HTTP Response -(Status,Collection of Headers,Body)
-
+REST API returns a response message in XML or JSON format. Response Header - Content-Type informs about the type of body format.
+baseURI-the address where different resources are located
+Get(200)/Put/Post(201)/Patch(200)/Delete(204)
 ----------------------------------------------------------------------------------------------------------------------------------------
