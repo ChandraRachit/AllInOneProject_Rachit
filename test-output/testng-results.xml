@@ -1,196 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="5" total="21" passed="14" failed="1" skipped="1">
+<testng-results ignored="0" total="9" passed="6" failed="2" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-10-22T13:17:12 IST" name="Suite" finished-at="2023-10-22T13:17:13 IST" duration-ms="1108">
+  <suite started-at="2023-10-22T18:47:43 IST" name="Default suite" finished-at="2023-10-22T18:47:44 IST" duration-ms="1075">
     <groups>
     </groups>
-    <test started-at="2023-10-22T13:17:12 IST" name="Test" finished-at="2023-10-22T13:17:13 IST" duration-ms="1108">
-      <class name="TestNG.ExampleClass4_DataProvider">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:12 IST" name="beforeTest" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod17(int, int)[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:12 IST" name="testMethod17" data-provider="data" finished-at="2023-10-22T13:17:12 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[1]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[2]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod17 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="testMethod17(int, int)[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:12 IST" name="testMethod17" data-provider="data" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[3]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[4]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod17 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="testMethod17(int, int)[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:12 IST" name="testMethod17" data-provider="data" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[5]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[6]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod17 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.ExampleClass4_DataProvider@5403f35f]" started-at="2023-10-22T13:17:13 IST" name="afterTest" finished-at="2023-10-22T13:17:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- TestNG.ExampleClass4_DataProvider -->
-      <class name="TestNG.ExampleCLass2_Enabled">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.ExampleCLass2_Enabled@4a7f959b]" started-at="2023-10-22T13:17:12 IST" name="beforeTest" finished-at="2023-10-22T13:17:12 IST" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleCLass2_Enabled@4a7f959b]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod22()[pri:0, instance:TestNG.ExampleCLass2_Enabled@4a7f959b]" started-at="2023-10-22T13:17:12 IST" name="testMethod22" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod22 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleCLass2_Enabled@4a7f959b]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleCLass2_Enabled@4a7f959b]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod23()[pri:0, instance:TestNG.ExampleCLass2_Enabled@4a7f959b]" started-at="2023-10-22T13:17:12 IST" name="testMethod23" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod23 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleCLass2_Enabled@4a7f959b]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.ExampleCLass2_Enabled@4a7f959b]" started-at="2023-10-22T13:17:13 IST" name="afterTest" finished-at="2023-10-22T13:17:13 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- TestNG.ExampleCLass2_Enabled -->
+    <test started-at="2023-10-22T18:47:43 IST" name="Default test" finished-at="2023-10-22T18:47:44 IST" duration-ms="1075">
       <class name="TestNG.ExampleClass1">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="beforeTest" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="beforeTest" finished-at="2023-10-22T18:47:43 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="beforeMethod" finished-at="2023-10-22T18:47:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod12()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="testMethod12" finished-at="2023-10-22T13:17:12 IST" duration-ms="5" status="PASS">
+        <test-method signature="testMethod12()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="testMethod12" finished-at="2023-10-22T18:47:43 IST" duration-ms="4" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod12 -->
-        <test-method signature="testMethod13()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="testMethod13" finished-at="2023-10-22T13:17:12 IST" duration-ms="5" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="afterMethod" finished-at="2023-10-22T18:47:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testMethod13()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="testMethod13" finished-at="2023-10-22T18:47:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod13 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="beforeMethod" finished-at="2023-10-22T18:47:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod14()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="testMethod14" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="afterMethod" finished-at="2023-10-22T18:47:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testMethod14()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="testMethod14" finished-at="2023-10-22T18:47:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod14 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="beforeMethod" finished-at="2023-10-22T18:47:43 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="afterMethod" finished-at="2023-10-22T18:47:43 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="beforeMethod" finished-at="2023-10-22T18:47:43 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod18(java.lang.String)[pri:2, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="testMethod18" finished-at="2023-10-22T13:17:12 IST" duration-ms="2" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod18 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod19()[pri:1, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="testMethod19" finished-at="2023-10-22T13:17:13 IST" duration-ms="1015" status="FAIL">
+        <test-method signature="testMethod19()[pri:1, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:43 IST" name="testMethod19" finished-at="2023-10-22T18:47:44 IST" duration-ms="1007" status="FAIL">
           <exception class="org.testng.internal.thread.ThreadTimeoutException">
             <message>
               <![CDATA[Method TestNG.ExampleClass1.testMethod19() didn't finish within the time-out 1000]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.testng.internal.thread.ThreadTimeoutException: Method TestNG.ExampleClass1.testMethod19() didn't finish within the time-out 1000
-at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNoExecutor(MethodInvocationHelper.java:322)
-at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:280)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeoutWithNewExecutor(MethodInvocationHelper.java:367)
+at org.testng.internal.MethodInvocationHelper.invokeWithTimeout(MethodInvocationHelper.java:282)
 at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:603)
 at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
 at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
@@ -198,149 +67,149 @@ at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- org.testng.internal.thread.ThreadTimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod19 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="afterMethod" finished-at="2023-10-22T18:47:44 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod16()[pri:4, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="testMethod16" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod16 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="testMethod15()[pri:5, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="testMethod15" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod15 -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod11()[pri:6, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="testMethod11" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod11 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:13 IST" name="afterMethod" finished-at="2023-10-22T13:17:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method signature="testMethod17()[pri:3, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:13 IST" name="testMethod17" finished-at="2023-10-22T13:17:13 IST" depends-on-methods="TestNG.ExampleClass1.testMethod19" duration-ms="0" status="SKIP">
-          <exception class="java.lang.Throwable">
+        <test-method signature="testMethod18(java.lang.String)[pri:2, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="testMethod18" finished-at="2023-10-22T18:47:44 IST" duration-ms="0" status="FAIL">
+          <exception class="org.testng.TestNGException">
             <message>
-              <![CDATA[Method ExampleClass1.testMethod17()[pri:3, instance:TestNG.ExampleClass1@3e84448c] depends on not successfully finished methods]]>
+              <![CDATA[
+Parameter 'Browser' is required by @Test on method testMethod18 but has not been marked @Optional or defined
+in C:\Users\Rachit\AppData\Local\Temp\testng-eclipse-762089837\testng-customsuite.xml]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.Throwable: Method ExampleClass1.testMethod17()[pri:3, instance:TestNG.ExampleClass1@3e84448c] depends on not successfully finished methods
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'Browser' is required by @Test on method testMethod18 but has not been marked @Optional or defined
+in C:\Users\Rachit\AppData\Local\Temp\testng-eclipse-762089837\testng-customsuite.xml
+at org.testng.internal.Parameters.createParams(Parameters.java:272)
+at org.testng.internal.Parameters.createParametersForMethod(Parameters.java:360)
+at org.testng.internal.Parameters.createParameters(Parameters.java:704)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:879)
+at org.testng.internal.Parameters.handleParameters(Parameters.java:744)
+at org.testng.internal.ParameterHandler.handleParameters(ParameterHandler.java:59)
+at org.testng.internal.ParameterHandler.createParameters(ParameterHandler.java:38)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:783)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod18 -->
+        <test-method signature="testMethod17()[pri:3, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="testMethod17" finished-at="2023-10-22T18:47:44 IST" depends-on-methods="TestNG.ExampleClass1.testMethod19" duration-ms="0" status="SKIP">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method ExampleClass1.testMethod17()[pri:3, instance:TestNG.ExampleClass1@6bedbc4d] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method ExampleClass1.testMethod17()[pri:3, instance:TestNG.ExampleClass1@6bedbc4d] depends on not successfully finished methods
 at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:101)
 at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
 at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:766)
+at org.testng.TestRunner.run(TestRunner.java:587)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1187)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1109)
+at org.testng.TestNG.runSuites(TestNG.java:1039)
+at org.testng.TestNG.run(TestNG.java:1007)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
           </exception> <!-- java.lang.Throwable -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod17 -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.ExampleClass1@3e84448c]" started-at="2023-10-22T13:17:13 IST" name="afterTest" finished-at="2023-10-22T13:17:13 IST" duration-ms="1" status="PASS">
+        <test-method signature="testMethod16()[pri:4, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="testMethod16" finished-at="2023-10-22T18:47:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod16 -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="beforeMethod" finished-at="2023-10-22T18:47:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="beforeMethod" finished-at="2023-10-22T18:47:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="afterMethod" finished-at="2023-10-22T18:47:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="testMethod15()[pri:5, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="testMethod15" finished-at="2023-10-22T18:47:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod15 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="afterMethod" finished-at="2023-10-22T18:47:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="beforeMethod" finished-at="2023-10-22T18:47:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="testMethod11()[pri:6, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="testMethod11" finished-at="2023-10-22T18:47:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod11 -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="afterMethod" finished-at="2023-10-22T18:47:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.ExampleClass1@6bedbc4d]" started-at="2023-10-22T18:47:44 IST" name="afterTest" finished-at="2023-10-22T18:47:44 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterTest -->
       </class> <!-- TestNG.ExampleClass1 -->
-      <class name="TestNG.ExampleClass5_IncludeExclude">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.ExampleClass5_IncludeExclude@483f6d77]" started-at="2023-10-22T13:17:12 IST" name="beforeTest" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleClass5_IncludeExclude@483f6d77]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod51()[pri:0, instance:TestNG.ExampleClass5_IncludeExclude@483f6d77]" started-at="2023-10-22T13:17:12 IST" name="testMethod51" finished-at="2023-10-22T13:17:12 IST" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod51 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleClass5_IncludeExclude@483f6d77]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.ExampleClass5_IncludeExclude@483f6d77]" started-at="2023-10-22T13:17:13 IST" name="afterTest" finished-at="2023-10-22T13:17:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- TestNG.ExampleClass5_IncludeExclude -->
-      <class name="TestNG.ExampleCLass3_Exception">
-        <test-method is-config="true" signature="beforeTest()[pri:0, instance:TestNG.ExampleCLass3_Exception@429bffaa]" started-at="2023-10-22T13:17:12 IST" name="beforeTest" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeTest -->
-        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:TestNG.ExampleCLass3_Exception@429bffaa]" started-at="2023-10-22T13:17:12 IST" name="beforeMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- beforeMethod -->
-        <test-method signature="testMethod31()[pri:0, instance:TestNG.ExampleCLass3_Exception@429bffaa]" started-at="2023-10-22T13:17:12 IST" name="testMethod31" finished-at="2023-10-22T13:17:12 IST" duration-ms="2" status="PASS">
-          <exception class="java.io.IOException">
-            <full-stacktrace>
-              <![CDATA[java.io.IOException
-at TestNG.ExampleCLass3_Exception.testMethod31(ExampleCLass3_Exception.java:29)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:134)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:597)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:816)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
-at java.base/java.lang.Thread.run(Thread.java:832)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.io.IOException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod31 -->
-        <test-method is-config="true" signature="afterMethod()[pri:0, instance:TestNG.ExampleCLass3_Exception@429bffaa]" started-at="2023-10-22T13:17:12 IST" name="afterMethod" finished-at="2023-10-22T13:17:12 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterMethod -->
-        <test-method is-config="true" signature="afterTest()[pri:0, instance:TestNG.ExampleCLass3_Exception@429bffaa]" started-at="2023-10-22T13:17:13 IST" name="afterTest" finished-at="2023-10-22T13:17:13 IST" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- afterTest -->
-      </class> <!-- TestNG.ExampleCLass3_Exception -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

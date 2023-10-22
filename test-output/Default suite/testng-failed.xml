@@ -3,11 +3,17 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="RestAssuredPrograms.RestAssured_003">
+      <class name="TestNG.ExampleClass1">
         <methods>
-          <include name="testMethod2"/>
+          <include name="testMethod19"/>
+          <include name="testMethod18"/>
+          <include name="testMethod17"/>
+          <include name="afterTest"/>
+          <include name="beforeMethod"/>
+          <include name="afterMethod"/>
+          <include name="beforeTest"/>
         </methods>
-      </class> <!-- RestAssuredPrograms.RestAssured_003 -->
+      </class> <!-- TestNG.ExampleClass1 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
