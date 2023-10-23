@@ -36,7 +36,7 @@ Abstract Vs Concreate clsss
 Overloading Vs Overriding
 Vector Vs ArryList
 Static vd dynamic class loading
-Abstract class Vs Interface
+Abstract class Vs Interface 
 ------------------------------------------------------------------------------------------------------
 Write a Java Program to reverse a string without using String inbuilt function.
 Write a Java Program to swap two numbers using/without using the third variable.
@@ -98,6 +98,7 @@ TestNG
 Listeners
 
 
+
 ----------------------------------------------------------------------------------------------------------------------------------------
 Cucumber
 Behavior Driven Development -is to make various project roles such as Business Analysts, Quality Assurance, Developers, etc., understand the application without diving deep into the technical aspects.
@@ -145,3 +146,29 @@ REST API returns a response message in XML or JSON format. Response Header - Con
 baseURI-the address where different resources are located
 Get(200)/Put/Post(201)/Patch(200)/Delete(204)
 ----------------------------------------------------------------------------------------------------------------------------------------
+
+Selenium Framework
+
+BaseTest
+TestCase - Actual Test Case is written
+ObjectRepo
+ExcelUtil
+PropertiesUtil
+SeleniumUtil
+ProductUtil
+Report
+Log
+Screenshot
+WebDrivers
+BrowserFactory
+DriverFactory
+DBConnection
+JiraIntegration
+Listeners
+TestNGRunner Setup
+
+github
+Jenkins
+Docker
+Cloud
+
