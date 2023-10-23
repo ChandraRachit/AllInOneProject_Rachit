@@ -1,5 +1,28 @@
 # AllInOneProject_Rachit
 
-A brief description of what this project does and who it's for
+This project contains  
 
-This project contains all the important Java Programs,Selenium,Rest Assured,TestNG Programs
+1. Java Program
+    * Collection Framework (List,Set,Map)
+    * String
+    * Abstract & Interface
+    * Overloading & Overriding
+    * Searching
+    * Sorting
+    * File Read
+    * Thread
+    * 30+ Interview Programs
+    * Star Patterns
+3. Selenium
+4. Rest Assured
+5. TestNG
+   
+
+
+
+
+
+
+
+
+
